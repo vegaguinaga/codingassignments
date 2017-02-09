@@ -9,13 +9,48 @@ body{
 }
 h1{
 	text-align: center;
+	margin-bottom: 25px;
 }
 section{
 	border: 1px solid black;
 	width: 90%;
-	height: 150px;
+	height: 200px;
 	margin-right: auto;
 	margin-left: auto;
+	
+}
+section#menu{
+	background-color: #c9efff;
+	position: relative;
+}
+section#menu h2{
+	border:2px solid black;
+	text-align: center;
+	padding: 0 15px 0 15px;
+
+}
+#header-chicken{
+	color: red;
+	position: absolute;
+	right: 0px;
+
+}
+#header-beef{
+	color: red;
+	position: absolute;
+	right: 0px;
+
+}
+#header-sushi{
+	color: red;
+	position: absolute;
+	right: 0px;
+
+}
+.descrip{
+	margin-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 /* Simple Responsive Framework. */
 .row {
