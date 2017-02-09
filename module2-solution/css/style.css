@@ -10,44 +10,57 @@ body{
 h1{
 	text-align: center;
 	margin-bottom: 25px;
+  margin-top: 20px;
+  
 }
+
 section{
-	border: 1px solid black;
+	border: 2px solid black;
 	width: 90%;
 	height: 200px;
 	margin-right: auto;
 	margin-left: auto;
+  border-radius: 5px;
+  
 	
 }
-section#menu{
+section.menu{
 	background-color: #c9efff;
 	position: relative;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
 }
-section#menu h2{
+section.menu h2{
 	border:2px solid black;
 	text-align: center;
 	padding: 0 15px 0 15px;
 
 }
 #header-chicken{
-	color: red;
+	
 	position: absolute;
 	right: 0px;
+  background-color: green;
 
 }
 #header-beef{
-	color: red;
+	
 	position: absolute;
 	right: 0px;
+  background-color: yellow;
+ 
 
 }
 #header-sushi{
-	color: red;
+	color: white;
 	position: absolute;
 	right: 0px;
+  background-color: red;
 
 }
 .descrip{
+  font-size: 1em;
 	margin-top: 60px;
 	padding-left: 10px;
 	padding-right: 10px;
